@@ -1,14 +1,12 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Categories from "./components/Categories";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Categories from "./components/categories/Categories";
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white">
+    <div>
       <Navbar />
-
       <Hero />
-
       <Categories />
     </div>
   );
