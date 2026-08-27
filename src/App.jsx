@@ -20,6 +20,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Categories from "./components/categories/Categories";
 import FeaturedProducts from "./components/products/FeaturedProducts";
+import SpecialOffers from "./components/offers/SpecialOffers";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Categories />
 
       <FeaturedProducts />
+
+      <SpecialOffers />
     </div>
   );
 }
